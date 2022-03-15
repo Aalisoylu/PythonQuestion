@@ -1,0 +1,21 @@
+list=[]
+sumArray=[]
+N= int(input("Please enter the number:  "))
+
+for a in range(1,N):
+ 
+  myList=[x for x in range(1,a) if a%x == 0]
+  #listem bir sayının tam bölenlerinin listesi
+  b=(sum(listem))
+  # b ise o sayının tam bölenlerinin toplamı
+  listem2=[]
+  listem2=[x for x in range(1,b) if b%x == 0]
+ 
+
+  if sum(listem) ==b and sum(listem2) == a and a!= b :
+
+    if a+b not in toplamdizi:    
+      list.append([a,b])
+      toplamdizi.append(a+b)
+   
+print(list)  
